@@ -255,7 +255,14 @@ int main()
 	// clock_t begin = clock();
 #endif
 	
+    int T, case_no = 1;
     
+    cin>>T;
+    while(T--)
+    {
+        
+        cout << "Case #" << case_no++ << ": " << endl;
+    }
 	
 #ifdef DBG
 	// clock_t end = clock();
